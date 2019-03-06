@@ -1,0 +1,188 @@
+/* NAVIGATION */
+
+.navbar {
+  box-shadow: 2px 2px 5px green;
+}
+
+ .navbar .nav-link {
+   margin: 0 auto;
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+
+nav ul li a:hover {
+  color: #777;
+  text-decoration: none;
+}
+
+/* stroke */
+nav.stroke ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';  /* This will show the underline when hovering*/
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+
+/* HOME SECTION */
+#home-section {
+  background: url('../img/pic1.jpg') no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+  min-height: 700px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  text-shadow: 2px 4px black;
+}
+
+#home-section .dark-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+}
+
+.header {
+  margin-top: 250px;
+}
+
+#about {
+   background: #f3f3f3;
+}
+
+#about h1{
+  font-family: 'Great Vibes', cursive;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 50px;
+  padding-top: 100px;
+}
+
+#about-img {
+  box-shadow: 2px 2px 5px 5px #28a745;
+}
+
+#header-middle {
+  background: url('../img/eclair.jpg') no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+  min-height: 200px;
+}
+
+#header-middle .dark-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 300px;
+}
+
+#header-middle h2 {
+  margin: 100px 0 20px 0;
+}
+
+#header-middle li {
+  width: 75%;
+}
+
+#menu {
+  background: #f3f3f3;
+  font-family:  cursive;
+}
+
+#menu h1 {
+  font-family: 'Great Vibes', cursive;
+  letter-spacing: 5px;
+  font-size: 50px;
+  padding-top: 100px;
+  width: 100%;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 40px 0 30px;
+}
+
+#menu h1 span {
+    background: #f3f3f3;
+    padding:0 20px;
+}
+
+
+
+#load-menu button {
+  margin: 0 auto;
+  min-width: 25%;
+}
+
+
+#gallery h1 {
+  font-family: 'Great Vibes', cursive;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding-top: 100px;
+  width: 100%;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 40px 0 30px;
+}
+
+#gallery h1 span {
+    background: white;
+    padding:0 20px;
+}
+
+#contact {
+  background: url('../img/pic1.jpg') no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   min-height: 400px;
+}
+
+#contact{
+  text-transform: uppercase;
+  text-shadow: 1px 1px black;
+
+}
+
+ .fa-facebook-square {
+   color: white;
+ }
+
+  footer a:hover {
+   text-decoration: none;
+ }
+
+ .fa-facebook-square:hover {
+    color: #3B5998
+ }
+
+#contact .dark-overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 400px;
+  padding: 80px 0;
+}
